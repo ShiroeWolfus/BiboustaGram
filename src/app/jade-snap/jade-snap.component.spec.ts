@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JadeNapComponent } from './jade-snap.component';
+import { JadeSnapComponent } from './jade-snap.component';
 
-describe('JadeNapComponent', () => {
-  let component: JadeNapComponent;
-  let fixture: ComponentFixture<JadeNapComponent>;
+describe('JadeSnapComponent', () => {
+  let component: JadeSnapComponent;
+  let fixture: ComponentFixture<JadeSnapComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [JadeNapComponent]
+      imports: [JadeSnapComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(JadeNapComponent);
+    fixture = TestBed.createComponent(JadeSnapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
